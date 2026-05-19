@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Jogadores de Futebol</title>
+    <style>
+        /* Configurações Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #1b4332;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Conteúdo Principal */
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Lista de Jogadores */
+        .ranking-lista {
+            list-style: none;
+        }
+
+        .jogador-card {
+            background-color: white;
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: center;
+            border-left: 5px solid #2d6a4f;
+        }
+
+        .posicao {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #2d6a4f;
+            margin-right: 1.5rem;
+            min-width: 50px;
+        }
+
+        .info h2 {
+            font-size: 1.5rem;
+            color: #1b4332;
+            margin-bottom: 0.2rem;
+        }
+
+        .nacionalidade {
+            font-size: 0.9rem;
+            color: #666;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .descricao {
+            color: #444;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #1b4332;
+            color: white;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Os 5 Melhores Jogadores de Futebol</h1>
+        <p>Uma seleção dos maiores talentos que marcaram a história do esporte.</p>
+    </header>
+
+    <main>
+        <ol class="ranking-lista">
+            <!-- Jogador 1 -->
+            <li>
+                <article class="jogador-card">
+                    <div class="posicao" aria-hidden="true">#1</div>
+                    <div class="info">
+                        <h2>Pelé</h2>
+                        <div class="nacionalidade">Brasil</div>
+                        <p class="descricao">O Rei do Futebol. Único jogador a vencer três Copas do Mundo, famoso por sua genialidade, atletismo impecável e mais de mil gols na carreira.</p>
+                    </div>
+                </article>
+            </li>
+
+            <!-- Jogador 2 -->
+            <li>
+                <article class="jogador-card">
+                    <div class="posicao" aria-hidden="true">#2</div>
+                    <div class="info">
+                        <h2>Lionel Messi</h2>
+                        <div class="nacionalidade">Argentina</div>
+                        <p class="descricao">Dono de uma genialidade incomparável com a bola nos pés. Conquistou múltiplas Bolas de Ouro, a Copa do Mundo de 2022 e quebrou quase todos os recordes possíveis no futebol moderno.</p>
+                    </div>
+                </article>
+            </li>
+
+            <!-- Jogador 3 -->
+            <li>
+                <article class="jogador-card">
+                    <div class="posicao" aria-hidden="true">#3</div>
+                    <div class="info">
+                        <h2>Diego Maradona</h2>
+                        <div class="nacionalidade">Argentina</div>
+                        <p class="descricao">Um ícone de pura paixão e habilidade técnica. Carregou a Argentina ao título da Copa de 1986 e se tornou uma divindade no Napoli.</p>
+                    </div>
+                </article>
+            </li>
+
+            <!-- Jogador 4 -->
+            <li>
+                <article class="jogador-card">
+                    <div class="posicao" aria-hidden="true">#4</div>
+                    <div class="info">
+                        <h2>Cristiano Ronaldo</h2>
+                        <div class="nacionalidade">Portugal</div>
+                        <p class="descricao">O maior exemplo de foco, máquina de gols e obsessão pelo topo. Maior artilheiro da história do Real Madrid e da Champions League.</p>
+                    </div>
+                </article>
+            </li>
+
+            <!-- Jogador 5 -->
+            <li>
+                <article class="jogador-card">
+                    <div class="posicao" aria-hidden="true">#5</div>
+                    <div class="info">
+                        <h2>Zinedine Zidane</h2>
+                        <div class="nacionalidade">França</div>
+                        <p class="descricao">A definição de elegância em campo. Um meio-campista maestro que brilhava nos momentos mais decisivos, como nas finais de Copa do Mundo e Champions League.</p>
+                    </div>
+                </article>
+            </li>
+        </ol>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Lista Simples de Futebol. Feito com HTML e CSS.</p>
+    </footer>
+
+</body>
+</html>
